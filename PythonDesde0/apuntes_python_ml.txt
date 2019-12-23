@@ -1,0 +1,12 @@
+INPUT
+
+Le informa al usuario que le estoy solicitando informacion
+x=	name = input("Por favor escriba su nombre \n")
+	print("Hola " + nombre + "¿Como estás?")
+
+FUNCION TYPE
+
+Me esta diciendo el tipo de dato que hay dentro la variable.
+x=	print(type(peso))
+	rta: "str"
+
