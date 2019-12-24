@@ -10,3 +10,36 @@ Me esta diciendo el tipo de dato que hay dentro la variable.
 x=	print(type(peso))
 	rta: "str"
 
+OPERADORES ARITMETICOS
+
+Cuando el input de un dato lo quiro convertir en un número
+debo volver la variable en entero, algo asi:
+
+num1 = int(num1)
+
+CAST
+
+De la siguiente forma se clasifican variables
+
+int() = Estoy declarando que el valor es número entero
+float() = Declaro que el valor el flotante 4.5 por ejemplo
+bool() = Declaro que es bueano, verdadero o falso
+int(True) = Si quisiera declarar True como entero a un booleano
+	    la variable me almacena el número 1
+	    En caso de almacena False me almacena
+	    el número 0
+bool(1) = Cualquier valor mayor a 0 es True
+
+COMPARADORES:
+
+print(5==5) = Me imprime el valor True
+print(5==6) ( Me imprime False
+Puedo comparar flotantes, strings, enteros...
+!= y <> = En esta declaracion pregunto si es distinto
+< = pregunto si es mayor
+> = pregunto si es menor
+<= = mayor o igual que 
+>= = menor o igua que 
+
+
+
