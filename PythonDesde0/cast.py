@@ -1,6 +1,5 @@
 entero = int("777")
 
-
 flotante = float("4.3")
 print(type(flotante))
 

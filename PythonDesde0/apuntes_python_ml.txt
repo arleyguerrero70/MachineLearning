@@ -42,4 +42,89 @@ Puedo comparar flotantes, strings, enteros...
 >= = menor o igua que 
 
 
+ASIGNCION
+
+num = num + 1 la forma abreviada es num += 1
+num *=5
+
+
+ESTRUCTURAS DE CONTROL
+edad = int(input("digita tu edad")) = En esta forma establesco que es
+el numero que voy a recibir es un entero,  solo ese valor recibire
+
+EJERCICIO PRACTICO
+
+50 Personas van a hacer el evento del año y a mi me toca comprar el postre
+
+70% quieren helado:
+20 % Quieren pastel:
+10% quiere Flan:
+
+Debo salir a realizar la compra y la prioridad es la que tiene el 
+mayor porcentaje
+
+stock = "helado"
+
+OPERADOR LOGICO
+
+nublado = True
+aburrido = True
+
+if nublado == True and aburrido == True:
+	print("Vamos a cine")
+
+Hemos descubierto que exite el "and" funciona como operador logico.
+
+True AND False = False
+True AND True = True
+False AND True = False 
+En el AND comparamos variables, si comparamos True con un false el
+resultado sera False, sin importar el orden.
+
+True OR False = True
+True OR True = True
+False OR True = False 
+OR cumple la funcion contraria del AND 
+
+aburrido = False
+aburrido = not(aburrido)
+la funcion NOT es convertir la variable booleana al contrario de lo que significa
+
+
+respuesta = input()
+respuesta = respuesta.lower()
+De esta manera, cualquier respuesta que reciba en mayuscula 
+la convierto en minisucula y pongo en if lo siguiente 
+if respuesta = "si" 
+	print("Has escrito si")
+respuesta = respuesta.upper() Convierte todo en mayuscula
+
+for x in range (1,6) = Estoy declarando que es loop va a iniciar
+desde 1 hasta el 6
+
+DEF
+
+def calcula ():
+	calculo = 43 * 12 * 80
+	calculo = calculo / 7 
+	coeficiente = 45 * 3.1416
+	calculo = calculo * coeficiente
+	calculo = "El resultado es \n" + str(calculo)
+	print(calculo)
+
+def me almacena en un memoria un resultado, y cuando necesite
+volver a llamarlo no habra que repetir lineas de cod.
+
+LISTAS
+
+sabores = ["chocolate","crema americana","vainilla" True, 10,12.30,]
+
+Las listas son un cajon que me almacena informacion
+variable de variables
+
+sabores = ["chocolate","crema americana","vainilla"]
+print(sabores[2]) 
+Debo indicar el número que ocupa la variable
+
+
 
